@@ -1,5 +1,6 @@
 .navbar-background {
   background-color: rgba(11, 91, 11, 0.907);
+  min-width: 100%;
 }
 #navbarNav {
   display: flex;

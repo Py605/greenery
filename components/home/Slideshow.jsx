@@ -15,8 +15,9 @@ const Slideshow = ({ images }) => {
       <Image
         src={images[currentImage]}
         alt="slideshow"
-        width={1000}
+        width={1200}
         height={500}
+        className="slider-images"
       />
     </div>
   );

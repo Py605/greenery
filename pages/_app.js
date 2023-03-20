@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar';
 import "../styles/navbar.css"
+import "../styles/home.css"
 
 import 'bootstrap/dist/css/bootstrap.css'
 

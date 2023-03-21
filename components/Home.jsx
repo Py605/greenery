@@ -4,11 +4,12 @@ import ExploreList from './home/ExploreList';
 import BlogsList from './home/BlogsList';
 import TopProducts from './home/TopProducts';
 import { slideShowImages, exploreListImages } from '../data/images_links';
+import Footer from './Footer';
 
 function Home() {
   return (
     <div>
-      <div>
+      <div className='mb-4'>
         <Slideshow images={slideShowImages} />
       </div>
       <div className="container">
@@ -16,8 +17,11 @@ function Home() {
       <div>
         <ExploreList list={exploreListImages} />
       </div>
+      <div className='mb-4'>
+        <TopProducts />
+      </div>
       <div>
-        <p>
+        <p className='normal-text'>
           Greenery is a one-stop online plants store presenting the freshest and
           finest plants for your house, providing next day delivery at your
           doorstep. Shower the solitude, purity, and love on your house with our
@@ -26,13 +30,11 @@ function Home() {
           maintenance plants, vegetable plants, and Good luck plants.
         </p>
       </div>
-      <div>
-        <TopProducts />
-      </div>
       <div className="blogs-area">
         <BlogsList />
       </div>
       </div>
+      <Footer /> 
     </div>
   );
 }

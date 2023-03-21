@@ -1,10 +1,15 @@
+.normal-text{
+  font-size: 1.3rem;
+}
 .container{
   max-width: 90vw;
 }
+/* --- SlideShow --- */
 .slider-images {
   /* min-width: 100vw; */
   min-width: 100%;
 }
+/* ---- Explore List---  */
 .explore-list {
   min-width: 100%;
   display: flex;
@@ -19,6 +24,7 @@
   transform: scale(1.1);
 }
 
+/* ---- Top Products ---- */
 .parent {
   display: flex;
   min-width: 100%;
@@ -39,11 +45,13 @@
 }
 .top-products-image-div1 {
   min-width: 100%;
-  min-height: 48%;
+  min-height: 49%;
+  cursor:pointer;
 }
 .top-products-image-div2 {
   min-width: 100%;
   min-height: 32%;
+  cursor:pointer;
 }
 /* ----BlogsList---- */
 .blogsList{
@@ -51,26 +59,25 @@
   justify-content: space-between;
 }
 .blog-component{
-  /* max-width: 30%; */
+  max-width: 32.5%;
 }
 /* ----Particular Blog's  List--- */
 .blog-div {
   border: 1px solid rgba(128,128,128,.16);
-    box-shadow: 0 1px 4px #8080801c;
+  box-shadow: 0 1px 4px #8080801c;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  height: 300px;
-  padding: 0.5rem;
+  height: 350px;
 }
 .image-with-text {
   min-width: 100%;
-  min-height: 65%;
+  min-height: 70%;
 }
 .text-with-img {
-  min-height: 35%;
-  line-height: 1.5rem;
+  min-height: 30%;
+  line-height: 1.3rem;
   padding: 1rem;
 }
 .text-wrap-center{
@@ -80,10 +87,17 @@
   width: 100%;
   height: 100%;
 }
+.big-heading{
+  text-align: center;
+  font-size: 1.5rem ;
+  font-weight: bold;
+}
 .heading{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 .read-more-btn{
   font-size: 1.1rem;
   color:red;
+  background:transparent;
+  border: none;
 }

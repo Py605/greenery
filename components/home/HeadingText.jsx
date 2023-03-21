@@ -2,7 +2,7 @@ import React from 'react'
 
 function HeadingText({text}) {
   return (
-    <div>{text}</div>
+    <div className='big-heading mb-3'>{text}</div>
   )
 }
 

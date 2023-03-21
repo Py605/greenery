@@ -1,3 +1,6 @@
+.container{
+  max-width: 90vw;
+}
 .slider-images {
   /* min-width: 100vw; */
   min-width: 100%;
@@ -41,4 +44,46 @@
 .top-products-image-div2 {
   min-width: 100%;
   min-height: 32%;
+}
+/* ----BlogsList---- */
+.blogsList{
+  display: flex;
+  justify-content: space-between;
+}
+.blog-component{
+  /* max-width: 30%; */
+}
+/* ----Particular Blog's  List--- */
+.blog-div {
+  border: 1px solid rgba(128,128,128,.16);
+    box-shadow: 0 1px 4px #8080801c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 300px;
+  padding: 0.5rem;
+}
+.image-with-text {
+  min-width: 100%;
+  min-height: 65%;
+}
+.text-with-img {
+  min-height: 35%;
+  line-height: 1.5rem;
+  padding: 1rem;
+}
+.text-wrap-center{
+  text-align: center;
+}
+.blogs-image {
+  width: 100%;
+  height: 100%;
+}
+.heading{
+  font-size: 1.3rem;
+}
+.read-more-btn{
+  font-size: 1.1rem;
+  color:red;
 }

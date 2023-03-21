@@ -1,6 +1,7 @@
 import React from 'react';
 import Slideshow from './home/Slideshow';
 import ExploreList from './home/ExploreList';
+import BlogsList from './home/BlogsList';
 import TopProducts from './home/TopProducts';
 import { slideShowImages, exploreListImages } from '../data/images_links';
 
@@ -10,6 +11,7 @@ function Home() {
       <div>
         <Slideshow images={slideShowImages} />
       </div>
+      <div className="container">
 
       <div>
         <ExploreList list={exploreListImages} />
@@ -26,6 +28,10 @@ function Home() {
       </div>
       <div>
         <TopProducts />
+      </div>
+      <div className="blogs-area">
+        <BlogsList />
+      </div>
       </div>
     </div>
   );

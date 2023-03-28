@@ -1,0 +1,50 @@
+.plants-conatiner{
+  max-width: 90vw;
+  margin: auto;
+  /* margin-bottom: 1rem; */
+}
+.plants-info p{
+  font-size: 1.3rem ;
+}
+.particluar-image{
+  box-shadow: 1px solid black;
+  border-radius:  50%;
+}
+.particluar-image:hover {
+  /* Define the box-shadow properties for the card when it is hovered */
+  box-shadow: 4px 4px 8px rgba(62, 173, 181, 0.5);
+}
+.image-component{
+  text-align: center;
+}
+.card{
+  max-width: 300px;
+  min-height: 350px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.2s ease-in-out;
+}
+.card:hover {
+  /* Define the box-shadow properties for the card when it is hovered */
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.card-list{
+  display: flex;
+  justify-content: space-between;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.add-to-cart-btn{
+    min-width: 100%;
+    background-color: rgb(135, 96, 173);
+    text-align: center;
+}
+/* .btn{
+  text-align: center;
+  margin: 0   auto; 
+} */
+button{
+  padding: 6px 15px;
+}

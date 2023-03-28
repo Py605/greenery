@@ -14,4 +14,13 @@ const exploreListImages = [
   '/../public/images/pebbels.jpg',
   '/../public/images/accessories.jpg',
 ];
-export { slideShowImages, exploreListImages };
+const plantsListImages = [
+  '/../public/images/watering-girl.jpg',
+  '/../public/images/plants-inside-room.jpg',
+  '/../public/images/plant-on-working-desk.jpg',
+  '/../public/images/many-plants.jpg',
+  '/../public/images/lone-plant.jpg',
+  '/../public/images/jade-plants.jpg',
+  '/../public/images/gardening-girl.jpg',
+]
+export { slideShowImages, exploreListImages,plantsListImages };

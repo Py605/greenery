@@ -11,10 +11,11 @@
 }
 /* ---- Explore List---  */
 .explore-list {
-  min-width: 100%;
+  min-width:fit-content;
   display: flex;
   list-style: none;
   justify-content: space-between;
+  padding: 0;
 }
 .explore-list li {
   cursor: pointer;

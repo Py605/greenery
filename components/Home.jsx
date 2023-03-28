@@ -4,7 +4,6 @@ import ExploreList from './home/ExploreList';
 import BlogsList from './home/BlogsList';
 import TopProducts from './home/TopProducts';
 import { slideShowImages, exploreListImages } from '../data/images_links';
-import Footer from './Footer';
 
 function Home() {
   return (
@@ -34,7 +33,6 @@ function Home() {
         <BlogsList />
       </div>
       </div>
-      <Footer /> 
     </div>
   );
 }

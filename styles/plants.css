@@ -1,3 +1,6 @@
+.in-between{
+  text-align: center;
+}
 .plants-conatiner{
   max-width: 90vw;
   margin: auto;
@@ -15,17 +18,21 @@
   box-shadow: 4px 4px 8px rgba(62, 173, 181, 0.5);
 }
 .image-component{
-  text-align: center;
 }
 .card{
-  max-width: 300px;
+  width: 300px;
   min-height: 350px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.2s ease-in-out;
 }
 .card:hover {
-  /* Define the box-shadow properties for the card when it is hovered */
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.card-image{
+  width: 300px;
+}
+.card-img-top{
+  /* width: 100%  ; */
 }
 .card-list{
   display: flex;
@@ -41,10 +48,23 @@
     background-color: rgb(135, 96, 173);
     text-align: center;
 }
-/* .btn{
-  text-align: center;
-  margin: 0   auto; 
-} */
+
 button{
   padding: 6px 15px;
+}
+
+/* ---Extra Item--- */
+.extra-item-list{
+  display: flex;
+  justify-content: space-between;
+
+}
+.extra-item-card{
+  cursor: pointer;
+}
+.extra-item-text{
+  font-size: 1.3rem;
+}
+.extra-item-card-image{
+  width: 320px;
 }

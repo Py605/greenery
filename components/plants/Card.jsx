@@ -1,21 +1,21 @@
 import Image from 'next/image';
 import React from 'react';
 
-function Card() {
+function Card({url,name}) {
   return (
     <div className="card">
-      <div>
+      <div className='card-image'>
         <Image
           className="card-img-top"
-          src="/../public/images/gardening-girl.jpg"
-          width={200}
+          src={`${url}`}
+          width={300}
           height={200}
           alt="Card image cap"
         />
       </div>
       <div className="card-body">
-        <h5 className="card-name">Plant Name</h5>
-        <p className="card-rate">$100</p>
+        <h5 className="card-name">{name}</h5>
+        <p className="card-rate">${Math.floor(Math.random() * (500 - 100 + 1)) + 100}</p>
         <button href="#" className="add-to-cart-btn">
           Add to Cart
         </button>

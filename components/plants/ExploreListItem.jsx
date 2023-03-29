@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function ExploreListItem({ link,text }) {
   return (
-    <div className='image-component'>
+    <div className='image-component in-between'>
       <div className="image">
         <Image
           src={link}

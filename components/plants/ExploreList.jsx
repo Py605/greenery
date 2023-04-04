@@ -1,31 +1,33 @@
 import React from 'react';
 import ExploreListItem from './ExploreListItem';
-function ExploreList({ list }) {
+import { plantsExploreList,seedsExploreList } from '@/data/exploreList';
+function ExploreList({ list,page }) {
+  const nameList = (page === "plants") ? plantsExploreList : seedsExploreList;
+  console.log(page);
   return (
     <div className="explore-container">
       <ul className="explore-list">
         <li>
-          <ExploreListItem link={list[0]} text={"Plants by Type"}/>
+          <ExploreListItem link={list[0]} text={nameList[0]}/>
         </li>
         <li>
-          <ExploreListItem link={list[1]} text={"Plants by Season"}/>
+          <ExploreListItem link={list[1]} text={nameList[1]}/>
         </li>
         <li>
-          <ExploreListItem link={list[2]} text={"Plants by Location"}/>
+          <ExploreListItem link={list[2]} text={nameList[2]}/>
         </li>
         <li>
-          <ExploreListItem link={list[3]} text={"Flowering Plants"}/>
+          <ExploreListItem link={list[3]} text={nameList[3]}/>
         </li>
         <li>
-          <ExploreListItem link={list[4]} text={"Foliage Plants"}/>
+          <ExploreListItem link={list[4]} text={nameList[4]}/>
         </li>
         <li>
-          <ExploreListItem link={list[5]} text={"Plants by Color"}/>
+          <ExploreListItem link={list[5]} text={nameList[5]}/>
         </li>
-        <li>
-          <ExploreListItem link={list[6]} text={"Plants by Feature Uses "}/>
-        </li>
+ 
       </ul>
+
     </div>
   );
 }

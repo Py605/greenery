@@ -21,19 +21,19 @@ function Plants() {
         </p>
       </div>
       <div className="mb-4">
-        <ExploreList list={plantsListImages} />
+        <ExploreList list={plantsListImages} page={"plants"}/>
       </div>
       <div className="mb-3">
         <h2>Buy Your Favourite Plants</h2>
       </div>
       <div className="mb-4">
-        <CardList />
+        <CardList page={"plants"}/>
       </div>
       <div className="mb-4">
-        <CardList />
+        <CardList page={"plants"}/>
       </div>
       <div className="mb-4">
-        <CardList />
+        <CardList page={"plants"}/>
       </div>
       <div className="btn">
         <button className="load-more-btn">Load More</button>
@@ -42,7 +42,7 @@ function Plants() {
         <h4>You may also need</h4>
       </div>
       <div className="mt-4 mb-4">
-        <ExtraItemList />
+        <ExtraItemList page={"plants"} />
       </div>
     </div>
   );

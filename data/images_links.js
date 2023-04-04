@@ -21,5 +21,18 @@ const plantsListImages = [
   '/../public/images/lone-plant.jpg',
   '/../public/images/jade-plants.jpg',
   '/../public/images/gardening-girl.jpg',
-]
-export { slideShowImages, exploreListImages,plantsListImages };
+];
+const seedsListImages = [
+  '/../public/images/seeds/flower-seeds.jpg',
+  '/../public/images/seeds/tree-and-forestry-seeds.jpg',
+  '/../public/images/seeds/vegetable-and-herbs-seeds.jpg',
+  '/../public/images/seeds/all-seasons-seeds.jpg',
+  '/../public/images/seeds/rainy-sowing-seeds.jpg',
+  '/../public/images/seeds/other-seeds.jpg',
+];
+export {
+  slideShowImages,
+  exploreListImages,
+  plantsListImages,
+  seedsListImages,
+};

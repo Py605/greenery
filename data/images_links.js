@@ -5,7 +5,6 @@ const slideShowImages = [
   '/../public/images/slider-img4.jpg',
 ];
 const exploreListImages = [
-  '/../public/images/offers.jpg',
   '/../public/images/plants.jpg',
   '/../public/images/seeds.jpg',
   '/../public/images/pots.jpg',

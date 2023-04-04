@@ -5,29 +5,27 @@ function ExploreList({ list }) {
     <div className="explore-container">
       <ul className="explore-list">
         <li>
-          <ExploreListItem link={list[0]} />
+          <ExploreListItem link={list[0]} page={"plants"} />
         </li>
         <li>
-          <ExploreListItem link={list[1]} />
+          <ExploreListItem link={list[1]}  page={"seeds"}/>
         </li>
         <li>
-          <ExploreListItem link={list[2]} />
+          <ExploreListItem link={list[2]} page={"pots"}/>
         </li>
         <li>
-          <ExploreListItem link={list[3]} />
+          <ExploreListItem link={list[3]} page={"gardening"}/>
         </li>
         <li>
-          <ExploreListItem link={list[4]} />
+          <ExploreListItem link={list[4]} page={"fertilizers"}/>
         </li>
         <li>
-          <ExploreListItem link={list[5]} />
+          <ExploreListItem link={list[5]} page={"pebbels"}/>
         </li>
         <li>
-          <ExploreListItem link={list[6]} />
+          <ExploreListItem link={list[6]} page={"accessories"}/>
         </li>
-        <li>
-          <ExploreListItem link={list[7]} />
-        </li>
+
       </ul>
     </div>
   );

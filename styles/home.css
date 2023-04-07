@@ -8,10 +8,12 @@
 .slider-images {
   /* min-width: 100vw; */
   min-width: 100%;
+  height: auto;
 }
 /* ---- Explore List---  */
 .explore-list {
   min-width: fit-content;
+  height: auto;
   display: flex;
   list-style: none;
   justify-content: space-between;
@@ -40,9 +42,11 @@
 }
 .first {
   min-width: 65.6%;
+  height: auto;
 }
 .second {
   min-width: 33.6%;
+  height: auto;
 }
 .top-products-image-div1 {
   min-width: 100%;
@@ -80,6 +84,7 @@
 .image-with-text {
   min-width: max-content;
   min-height: 70%;
+  height: auto;
 }
 .text-with-img {
   min-height: 30%;

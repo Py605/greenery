@@ -7,7 +7,7 @@ function ExtraItemList({page}) {
       <ExtraItemCard name={"Soil and Fertilizers"} url={"/../public/images/soils-and-fertilizers.jpg"}/>
       <ExtraItemCard name={"Planters"} url={"/../public/images/planters.jpg"}/>
       <ExtraItemCard name={"Gardening Tools"} url={"/../public/images/gardening-tools.jpg"}/>
-      <ExtraItemCard name={page !== "plants" ? "Plants": "Seeds"} url={`/../public/images/${page !== "plants" ? "Plants": "Seeds"}.jpg`}/>
+      <ExtraItemCard name={"New"} url={`/../public/images/slider-img3.jpg`}/>
     </div>
   )
 }

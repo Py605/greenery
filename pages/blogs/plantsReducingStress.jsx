@@ -10,6 +10,7 @@ function plantsReducingStress() {
           height={500}
           width={500}
           className="blog-parent-image"
+          alt="Example Image"
         />
       </div>
       <div className="blog-container">

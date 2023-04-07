@@ -1,10 +1,12 @@
 import Navbar from "@/components/Navbar"
-export default function Home() {
+import React from 'react';
+import Home from '@/components/Home';
+import Footer from '@/components/Footer';
+export default function Index() {
   return (
     <>
-      <h1>
-        This is Sample
-      </h1>
+      <Home />
+      <Footer /> 
     </>
   )
 }

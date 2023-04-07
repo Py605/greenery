@@ -3,6 +3,7 @@ import Slideshow from './home/Slideshow';
 import ExploreList from './home/ExploreList';
 import BlogsList from './home/BlogsList';
 import TopProducts from './home/TopProducts';
+import PlantsSlider from './plants/PlantsSlider';
 import { slideShowImages, exploreListImages } from '../data/images_links';
 
 function Home() {
@@ -28,6 +29,10 @@ function Home() {
           planters, terracotta pots, bonsai plants, cactus plants, low
           maintenance plants, vegetable plants, and Good luck plants.
         </p>
+      </div>
+
+      <div>
+        <PlantsSlider />
       </div>
       <div className="blogs-area">
         <BlogsList />

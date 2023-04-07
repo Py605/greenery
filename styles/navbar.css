@@ -1,6 +1,13 @@
+.logo-div {
+  cursor: pointer;
+}
 .navbar-background {
   background-color: rgba(11, 91, 11, 0.907);
   min-width: 100%;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
 }
 #navbarNav {
   display: flex;
@@ -82,4 +89,14 @@ img {
   .text {
     font-size: 11px;
   }
+}
+
+/* ---Search Components--- */
+
+form {
+  display: flex;
+  background-color: transparent;
+}
+.form-control {
+  min-width: 500px;
 }

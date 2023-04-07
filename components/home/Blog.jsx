@@ -1,18 +1,20 @@
 import React from 'react';
 import Image from 'next/image';
-function Blog({ src, text,link }) {
+import Link from 'next/link';
+
+function Blog({ src, text, link }) {
   return (
     <div className="blog-div">
       <div className="image-with-text">
-        <Image src={src} width={200} height={100} className="blogs-image" />
+        <Image src={src} width={200} height={100} className="blogs-image" alt="Example Image"/>
       </div>
 
       <div className="text-with-img">
         <div className="text-wrap-center">
           <div className="heading">{text}</div>
-          <a src={link}>
+          <Link href={link} legacyBehavior>
             <button className="read-more-btn">Read Now {'>'}</button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

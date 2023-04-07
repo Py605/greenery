@@ -1,0 +1,99 @@
+.in-between {
+  text-align: center;
+}
+.plants-conatiner {
+  max-width: 90vw;
+  margin: auto;
+  /* margin-bottom: 1rem; */
+}
+.plants-info p {
+  font-size: 1.3rem;
+}
+.particluar-image {
+  box-shadow: 1px solid black;
+  border-radius: 50%;
+}
+.particluar-image:hover {
+  /* Define the box-shadow properties for the card when it is hovered */
+  box-shadow: 4px 4px 8px rgba(62, 173, 181, 0.5);
+}
+.image-component {
+}
+.card {
+  width: 300px;
+  min-height: 350px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.2s ease-in-out;
+}
+.card:hover {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.card-image {
+  width: 100%;
+}
+.card-img-top {
+  /* width: 100%  ; */
+}
+.card-list {
+  display: flex;
+  justify-content: space-between;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.add-to-cart-btn {
+  min-width: 100%;
+  background-color: rgb(135, 96, 173);
+  text-align: center;
+}
+
+button {
+  padding: 6px 15px;
+}
+
+/* ---Extra Item--- */
+.extra-item-list {
+  display: flex;
+  justify-content: space-between;
+}
+.extra-item-card {
+  cursor: pointer;
+}
+.extra-item-text {
+  font-size: 1.3rem;
+}
+.extra-item-card-image {
+  width: 320px;
+}
+
+/* ---Plants Slider in Home--- */
+
+
+.slick-prev {
+  left: 0 !important;
+  z-index: 1000 !important;
+}
+.slick-prev:before {
+  content: '' !important;
+}
+.slick-next {
+  right: 0 !important;
+  z-index: 1000 !important;
+}
+.slick-next:before {
+  content: '' !important;
+}
+.explore-plants-card-see-more-btn{
+  position:relative; 
+  height: 350px;
+}
+
+.see-more-btn{
+  cursor: pointer;
+  position:absolute; 
+  top:50%; 
+  left:50%; 
+  transform:translate(-50%,-50%);
+}

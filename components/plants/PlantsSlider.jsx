@@ -48,25 +48,25 @@ function PlantsSlider() {
           <Slider {...settings}>
             <div>
               <Card
-                name={'New Plant'}
+                page={'Plant'}
                 url={'/../public/images/slider-img1.jpg'}
               />
             </div>
             <div>
               <Card
-                name={'New Plant'}
+                page={'Plant'}
                 url={'/../public/images/slider-img1.jpg'}
               />
             </div>
             <div>
               <Card
-                name={'New Plant'}
+                page={'Plant'}
                 url={'/../public/images/slider-img1.jpg'}
               />
             </div>
             <div>
               <Card
-                name={'New Plant'}
+                page={'Plant'}
                 url={'/../public/images/slider-img1.jpg'}
               />
             </div>

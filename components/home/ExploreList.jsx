@@ -20,7 +20,7 @@ function ExploreList({ list }) {
           <ExploreListItem link={list[4]} page={"fertilizers"}/>
         </li>
         <li>
-          <ExploreListItem link={list[5]} page={"pebbels"}/>
+          <ExploreListItem link={list[5]} page={"pebbles"}/>
         </li>
         <li>
           <ExploreListItem link={list[6]} page={"accessories"}/>

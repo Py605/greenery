@@ -6,7 +6,7 @@ function Blog({ src, text, link }) {
   return (
     <div className="blog-div">
       <div className="image-with-text">
-        <Image src={src} width={200} height={100} className="blogs-image" alt="Example Image"/>
+        <Image src={src} width={200} height={150} className="blogs-image image" alt="Example Image"/>
       </div>
 
       <div className="text-with-img">

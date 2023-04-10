@@ -1,4 +1,5 @@
 import '../styles/404.css';
+import '../styles/add-plant.css';
 import Navbar from '../components/Navbar';
 import '../styles/navbar.css';
 import '../styles/home.css';

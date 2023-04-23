@@ -1,16 +1,97 @@
-import React from 'react'
-import Card from './Card'
+import React from 'react';
+import Card from './Card';
 
-function CardList({page}) {
-  const source = (page === "plants") ? "gardening-girl" : "seeds/common-seed-image";
+function CardList({ page }) {
+  const source =
+    page === 'plants' ? 'gardening-girl' : 'seeds/common-seed-image';
   return (
-    <div className='card-list'>
-      <Card url={`/../public/images/${source}.jpg`} page={page} />
-       <Card url={`/../public/images/${source}.jpg`} page={page} />
-       <Card url={`/../public/images/${source}.jpg`} page={page} />
-       <Card url={`/../public/images/${source}.jpg`} page={page} />
+    <div class="card-container">
+      <div className="card-list">
+        <Card
+          url={`/../public/images/${source}.jpg`}
+          page={page}
+          className="card"
+        />
+      </div>
+      <div className="card-list">
+        <Card
+          url={`/../public/images/${source}.jpg`}
+          page={page}
+          className="card"
+        />
+      </div>
+      <div className="card-list">
+        <Card
+          url={`/../public/images/${source}.jpg`}
+          page={page}
+          className="card"
+        />
+      </div>
+      <div className="card-list">
+        <Card
+          url={`/../public/images/${source}.jpg`}
+          page={page}
+          className="card"
+        />
+      </div>
+      <div className="card-list">
+        <Card
+          url={`/../public/images/${source}.jpg`}
+          page={page}
+          className="card"
+        />
+      </div>
+      <div className="card-list">
+        <Card
+          url={`/../public/images/${source}.jpg`}
+          page={page}
+          className="card"
+        />
+      </div>
+      <div className="card-list">
+        <Card
+          url={`/../public/images/${source}.jpg`}
+          page={page}
+          className="card"
+        />
+      </div>
+      <div className="card-list">
+        <Card
+          url={`/../public/images/${source}.jpg`}
+          page={page}
+          className="card"
+        />
+      </div>
+      <div className="card-list">
+        <Card
+          url={`/../public/images/${source}.jpg`}
+          page={page}
+          className="card"
+        />
+      </div>
+      <div className="card-list">
+        <Card
+          url={`/../public/images/${source}.jpg`}
+          page={page}
+          className="card"
+        />
+      </div>
+      <div className="card-list">
+        <Card
+          url={`/../public/images/${source}.jpg`}
+          page={page}
+          className="card"
+        />
+      </div>
+      <div className="card-list">
+        <Card
+          url={`/../public/images/${source}.jpg`}
+          page={page}
+          className="card"
+        />
+      </div>
     </div>
-  )
+  );
 }
 
-export default CardList
+export default CardList;

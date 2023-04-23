@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="navbar-background text-white p-4">
       <div className="d-flex justify-content-between align-items-center">
-        <h2 className="h5 font-weight-bold">Greenery- An Online Nursery</h2>
+        <h5 className="footer-text font-weight-bold">Greenery- An Online Nursery</h5>
         <div className="d-flex">
           <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="text-white">
             <FaFacebook className="h4 mx-1" />
@@ -18,7 +18,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <p className="mt-3">&copy; 2023 Greenery. All Rights Reserved.</p>
+      <p className="footer-text">&copy; 2023 Greenery. All Rights Reserved.</p>
     </footer>
   );
 };

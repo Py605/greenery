@@ -23,12 +23,7 @@ function Accessories() {
       <div className="mb-3">
         <h2>Buy Your Favourite Accessories</h2>
       </div>
-      <div className="mb-4">
-        <CardList page={'accessories'} />
-      </div>
-      <div className="mb-4">
-        <CardList page={'accessories'} />
-      </div>
+     
       <div className="mb-4">
         <CardList page={'accessories'} />
       </div>

@@ -22,12 +22,7 @@ function Seeds() {
       <div className="mb-3">
         <h2>Buy Your Favourite Seeds</h2>
       </div>
-      <div className="mb-4">
-        <CardList page={'seeds'} />
-      </div>
-      <div className="mb-4">
-        <CardList page={'seeds'} />
-      </div>
+      
       <div className="mb-4">
         <CardList page={'seeds'} />
       </div>

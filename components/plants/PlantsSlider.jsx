@@ -48,6 +48,7 @@ function PlantsSlider() {
           <Slider {...settings}>
             <div>
               <Card
+              className="card"
                 page={'Plant'}
                 url={'/../public/images/slider-img1.jpg'}
               />

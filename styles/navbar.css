@@ -34,26 +34,6 @@ img {
   margin: auto;
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
 /* The dots/bullets/indicators */
 .dot {
   height: 15px;
@@ -84,19 +64,49 @@ img {
   }
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {
-    font-size: 11px;
-  }
-}
 
 /* ---Search Components--- */
-
+.home-search-bar {
+  width: 350px;
+}
 form {
   display: flex;
   background-color: transparent;
 }
 .form-control {
   min-width: 500px;
+}
+
+/* --Footer--- */
+footer{
+  font-size: 2rem;
+}
+.footer-text{
+  font-size: 1.3rem;
+}
+
+/* On smaller screens, decrease text size */
+
+
+@media (max-width: 500px){
+  .footer-text{
+    font-size: 1rem;
+  }
+  .home-search-bar {
+    width: 250px;
+  }
+  .nav-item{
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 350px) {
+  .footer-text{
+    font-size: 0.9rem;
+  }
+  .home-search-bar {
+    width: 280px;
+  }
+  .nav-item{
+    font-size: 1rem;
+  }
 }

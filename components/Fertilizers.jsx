@@ -26,12 +26,7 @@ function Ferilizers() {
       <div className="mb-3">
         <h2>Buy Your Favourite Ferilizers</h2>
       </div>
-      <div className="mb-4">
-        <CardList page={'ferilizers'} />
-      </div>
-      <div className="mb-4">
-        <CardList page={'ferilizers'} />
-      </div>
+      
       <div className="mb-4">
         <CardList page={'ferilizers'} />
       </div>

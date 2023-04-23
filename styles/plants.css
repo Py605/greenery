@@ -2,16 +2,21 @@
   text-align: center;
 }
 .plants-conatiner {
-  max-width: 90vw;
+  width: 90vw;
   margin: auto;
   /* margin-bottom: 1rem; */
 }
 .plants-info p {
   font-size: 1.3rem;
 }
+.image {
+  min-width: 100%;
+}
+
 .particluar-image {
   box-shadow: 1px solid black;
   border-radius: 50%;
+  min-width: 100%;
 }
 .particluar-image:hover {
   /* Define the box-shadow properties for the card when it is hovered */
@@ -19,6 +24,7 @@
 }
 .image-component {
 }
+/* ---Normal card --- */
 .card {
   width: 300px;
   min-height: 350px;
@@ -48,7 +54,6 @@
   background-color: rgb(135, 96, 173);
   text-align: center;
 }
-
 button {
   padding: 6px 15px;
 }
@@ -57,19 +62,23 @@ button {
 .extra-item-list {
   display: flex;
   justify-content: space-between;
+  max-width: 90vw;
+}
+.particular-extra-item {
+  min-width: 23%;
 }
 .extra-item-card {
   cursor: pointer;
+  max-width: 98%;
 }
 .extra-item-text {
   font-size: 1.3rem;
 }
 .extra-item-card-image {
-  width: 320px;
+  width: 100%;
 }
 
 /* ---Plants Slider in Home--- */
-
 
 .slick-prev {
   left: 0 !important;
@@ -85,15 +94,93 @@ button {
 .slick-next:before {
   content: '' !important;
 }
-.explore-plants-card-see-more-btn{
-  position:relative; 
+.explore-plants-card-see-more-btn {
+  position: relative;
   height: 350px;
 }
 
-.see-more-btn{
+.see-more-btn {
   cursor: pointer;
-  position:absolute; 
-  top:50%; 
-  left:50%; 
-  transform:translate(-50%,-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* -- New Card Container--- */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 8px;
+}
+.card-list {
+  width: calc(96% / 4);
+  /* Show 4 cards in a row on big screens */
+}
+@media (max-width: 1200px) {
+  .particluar-image {
+    width: 100px;
+    height: 150px;
+  }
+}
+@media (max-width: 1000px) {
+  .particluar-image {
+    width: 80px;
+    height: 120px;
+  }
+  .plants-conatiner {
+    width: 98vw;
+  }
+  /* ---Extra Item--- */
+  .extra-item-list {
+    width: 100vw;
+    margin: auto;
+  }
+}
+@media (max-width: 800px) {
+  .card-list {
+    width: calc(96% / 3);
+    /* Show 3 cards in a row on screens with max width of 800px */
+  }
+  .plants-info p {
+    font-size: 1.2rem;
+  }
+  .particluar-image {
+    width: 50px;
+    height: 80px;
+  }
+  .image-component h5 {
+    font-size: 1rem;
+  }
+  .plants-conatiner {
+    width: 98vw;
+  }
+  
+  /* ---Extra Item--- */
+  .extra-item-list {
+    width: 100vw;
+  }
+  .extra-item-text {
+    font-size: 1rem;
+  }
+  .extra-item-card-image {
+    height: 150px;
+  }
+}
+@media (max-width: 500px) {
+  .card-list {
+    width: calc(97% / 2);
+    /* Show 2 cards in a row on screens with max width of 500px */
+  }
+  .plants-info p {
+    font-size: 1.1rem;
+  }
+  /* ---Extra Item--- */
+  .extra-item-list {
+    max-width: 98vw;
+  }
+  .extra-item-card-image {
+    height: 80px;
+  }
 }

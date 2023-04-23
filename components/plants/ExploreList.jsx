@@ -5,7 +5,6 @@ import { metaList } from '@/data/exploreList';
 function ExploreList({ list,page }) {
 
   const nameList = metaList[page];
-console.log(list);
   return (
     <div className="explore-container">
       <ul className="explore-list">

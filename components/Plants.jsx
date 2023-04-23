@@ -28,12 +28,6 @@ function Plants() {
       <div className="mb-4">
         <CardList page={'plants'} />
       </div>
-      <div className="mb-4">
-        <CardList page={'plants'} />
-      </div>
-      <div className="mb-4">
-        <CardList page={'plants'} />
-      </div>
       <div className="btn">
         <button className="load-more-btn">Load More</button>
       </div>

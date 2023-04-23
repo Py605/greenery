@@ -25,12 +25,7 @@ function Gardening() {
       <div className="mb-3">
         <h2>Buy Your Favourite Gardening</h2>
       </div>
-      <div className="mb-4">
-        <CardList page={'gardening'} />
-      </div>
-      <div className="mb-4">
-        <CardList page={'gardening'} />
-      </div>
+      
       <div className="mb-4">
         <CardList page={'gardening'} />
       </div>

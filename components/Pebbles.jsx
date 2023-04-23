@@ -27,12 +27,7 @@ function Pebbles() {
       <div className="mb-4">
         <CardList page={'pebbles'} />
       </div>
-      <div className="mb-4">
-        <CardList page={'pebbles'} />
-      </div>
-      <div className="mb-4">
-        <CardList page={'pebbles'} />
-      </div>
+
       <div className="btn">
         <button className="load-more-btn">Load More</button>
       </div>

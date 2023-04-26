@@ -8,7 +8,7 @@ import { slideShowImages, exploreListImages } from '../data/images_links';
 
 function Home() {
   return (
-    <div>
+    <div >
       <div className="mb-4">
         <Slideshow images={slideShowImages} />
       </div>
